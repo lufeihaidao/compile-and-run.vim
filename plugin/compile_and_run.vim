@@ -75,12 +75,12 @@ func! RunResult()
         endif
 endfunc
 
-" Ctrl + Shift + c
-map <c-C> :call CompileCode()<CR>
-imap <c-C> <ESC>:call CompileCode()<CR>
-vmap <c-C> <ESC>:call CompileCode()<CR>
+" Shift + c
+map <s-C> :call CompileCode()<CR>
+imap <s-C> <ESC>:call CompileCode()<CR>
+vmap <s-C> <ESC>:call CompileCode()<CR>
 
-" Ctrl + Shift + R
-map <c-R> :call RunResult()<CR>
-imap <c-R> <ESC>:call RunResult()<CR>
-vmap <c-R> <ESC>:call RunResult()<CR>
+" Shift + R
+map <s-R> :call RunResult()<CR>
+imap <s-R> <ESC>:call RunResult()<CR>
+vmap <s-R> <ESC>:call RunResult()<CR>
