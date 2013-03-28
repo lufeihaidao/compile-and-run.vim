@@ -75,12 +75,12 @@ func! RunResult()
         endif
 endfunc
 
-" Shift + F5
-map <S-F5> :call CompileCode()<CR>
-imap <S-F5> <ESC>:call CompileCode()<CR>
+" F5
+map <F5> :call CompileCode()<CR>
+imap <F5> <ESC>:call CompileCode()<CR>
 vmap <S-F5> <ESC>:call CompileCode()<CR>
 
-" Alt + F5
-map <M-F5> :call RunResult()<CR>
-imap <M-F5> <ESC>:call RunResult()<CR>
-vmap <M-F5> <ESC>:call RunResult()<CR>
+" F6
+map <F6> :call RunResult()<CR>
+imap <F6> <ESC>:call RunResult()<CR>
+vmap <F6> <ESC>:call RunResult()<CR>
